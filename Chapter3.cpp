@@ -142,12 +142,12 @@ int mpg()
 int lpk_mpg()
 {
 	cls();
-	cout << "Enter many liters per 100 km:\n> ";
+	cout << "Enter how many liters per 100 km:\n> ";
 	float liters;
 	cin >> liters;
 	float gals = liters / lpg;
 	float mpg = hundk / gals;
-	cout << liters << "/100km is " << mpg << " miles per gallon";
+	cout << liters << "L/100km is " << mpg << " miles per gallon";
 	pause();
 	return 0;
 }
